@@ -147,17 +147,17 @@ create table sequence (
     constraint pk_sequence primary key (name)
 );
 
-alter table lineitem owner to appuser;
-alter table orderstatus owner to appuser;
-alter table orders owner to appuser;
-alter table bannerdata owner to appuser;
-alter table profile owner to appuser;
-alter table signon owner to appuser;
-alter table inventory owner to appuser;
-alter table item owner to appuser;
-alter table product owner to appuser;
-alter table account owner to appuser;
-alter table category owner to appuser;
-alter table supplier owner to appuser;
-alter table sequence owner to appuser;
+alter table lineitem owner to jpetstore;
+alter table orderstatus owner to jpetstore;
+alter table orders owner to jpetstore;
+alter table bannerdata owner to jpetstore;
+alter table profile owner to jpetstore;
+alter table signon owner to jpetstore;
+alter table inventory owner to jpetstore;
+alter table item owner to jpetstore;
+alter table product owner to jpetstore;
+alter table account owner to jpetstore;
+alter table category owner to jpetstore;
+alter table supplier owner to jpetstore;
+alter table sequence owner to jpetstore;
 
